@@ -1,0 +1,351 @@
+html {
+  text-shadow: 1px 1px 4px  lightblue;
+ background-color:white;
+  background-attachment:fixed;
+ margin:auto;
+  display:flex;
+align-items: center;
+justify-content:center;
+  animation: bgChange 35s ease  infinite;
+}
+
+@keyframes bgChange {
+
+    0% { background-image:  linear-gradient(120deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  1% { background-image:  linear-gradient(125deg,#FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  2% { background-image: linear-gradient(130deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  3% { background-image: linear-gradient(135deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  4% { background-image: linear-gradient(140deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  5% { background-image: linear-gradient(145deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  6% { background-image: linear-gradient(150deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  7% { background-image: linear-gradient(155deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  8% { background-image: linear-gradient(160deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  9% {  background-image: linear-gradient(165deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  10% { background-image:linear-gradient(170deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  11% { background-image: linear-gradient(175deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+    12% { background-image: linear-gradient(180deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+
+   13% { background-image:  linear-gradient(190deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+    14% { background-image: linear-gradient(200deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  15% { background-image: linear-gradient(205deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  16% { background-image: linear-gradient(210deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  17% { background-image: linear-gradient(215deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  18% { background-image: linear-gradient(220deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  19% { background-image: linear-gradient(225deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  20% { background-image: linear-gradient(230deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  21% {  background-image: linear-gradient(235deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  22% { background-image:linear-gradient(240deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  23% { background-image: linear-gradient(245deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+    24% { background-image: linear-gradient(250deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+
+  25% { background-image:  linear-gradient(255deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+    26% { background-image: linear-gradient(260deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  27% { background-image: linear-gradient(265deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  28% { background-image: linear-gradient(270deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  29% { background-image: linear-gradient(275deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  30% { background-image: linear-gradient(280deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  31% { background-image: linear-gradient(285deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  32% { background-image: linear-gradient(290deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  33% {  background-image: linear-gradient(295deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  34% { background-image:linear-gradient(300deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  35% { background-image: linear-gradient(305deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+    36% { background-image: linear-gradient(310deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+
+   37% { background-image:  linear-gradient(315deg,#FFEFD5, #FFDAB9, #EEE8AA, white );   }
+    37% { background-image: linear-gradient(320deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  39% { background-image: linear-gradient(325deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  40% { background-image: linear-gradient(330deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  41% { background-image: linear-gradient(335deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  42% { background-image: linear-gradient(340deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  43% { background-image: linear-gradient(345deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  44% { background-image: linear-gradient(350deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  45% {  background-image: linear-gradient(355deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  46% { background-image:linear-gradient(360deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+ 47% { background-image: linear-gradient(365deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+    48% { background-image: linear-gradient(370deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+
+  49% { background-image:  linear-gradient(375deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+    50% { background-image: linear-gradient(380deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+
+    51% { background-image:  linear-gradient(375deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+    52% { background-image: linear-gradient(370deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  53% { background-image: linear-gradient(365deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  54% { background-image: linear-gradient(360deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  55% { background-image: linear-gradient(355deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  56% { background-image: linear-gradient(350deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  57% { background-image: linear-gradient(345deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  58% { background-image: linear-gradient(340deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  59% {  background-image: linear-gradient(335deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  60% { background-image:linear-gradient(330deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  61% { background-image: linear-gradient(325deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+    62% { background-image: linear-gradient(320deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+
+   63% { background-image:  linear-gradient(315deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+    64% { background-image: linear-gradient(310deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  65% { background-image: linear-gradient(305deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  66% { background-image: linear-gradient(300deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  67% { background-image: linear-gradient(295deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  68% { background-image: linear-gradient(290deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  69% { background-image: linear-gradient(285deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  70% { background-image: linear-gradient(280deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  71% {  background-image: linear-gradient(275deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  72% { background-image:linear-gradient(270deg , #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  73% { background-image: linear-gradient(265deg , #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+    74% { background-image: linear-gradient(260deg , #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+
+  75% { background-image:  linear-gradient(255deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+    76% { background-image: linear-gradient(250deg , #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  77% { background-image: linear-gradient(245deg , #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  78% { background-image: linear-gradient(240deg ,#FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  79% { background-image: linear-gradient(235deg , #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  80% { background-image: linear-gradient(230deg , #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  81% { background-image: linear-gradient(225deg , #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  82% { background-image: linear-gradient(220deg , #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  83% {  background-image: linear-gradient(215deg , #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  84% { background-image:linear-gradient(210deg , #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  85% { background-image: linear-gradient(205deg , #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+    86% { background-image: linear-gradient(200deg , #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+
+   87% { background-image:  linear-gradient(195deg ,#FFEFD5, #FFDAB9, #EEE8AA, white );   }
+    88% { background-image: linear-gradient(190deg , #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  89% { background-image: linear-gradient(185deg ,#FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  90% { background-image: linear-gradient(180deg , #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  91% { background-image: linear-gradient(175deg , #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  92% { background-image: linear-gradient(170deg , #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  93% { background-image: linear-gradient(165deg , #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  94% { background-image: linear-gradient(155deg , #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  95% {  background-image: linear-gradient(150deg , #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  96% { background-image:linear-gradient(145deg , #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+  97% { background-image: linear-gradient(140deg , #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+    98% { background-image: linear-gradient(135deg , #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+
+  99% { background-image:  linear-gradient(130deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+    100% { background-image: linear-gradient(125deg, #FFEFD5, #FFDAB9, #EEE8AA, white );   }
+
+
+}
+
+#logo {
+
+  width:380px;
+    height:250px;
+  border:0px solid;
+  border-radius:30px;
+
+margin:auto;
+  display:flex;
+align-items: center;
+justify-content:center;
+animation: shadowRun 3.3s infinite;
+
+
+}
+
+@keyframes shadowRun {
+
+  0% {-webkit-filter: drop-shadow(1px 1px 1px orange);    transform: rotate(1deg);
+ }
+    10% {-webkit-filter: drop-shadow(1px 7.2px 1px lightblue); transform: rotate(2deg)   }
+  20% {-webkit-filter: drop-shadow(1.2px 1px 1.2px orange);  transform: rotate(3deg)  }
+  30% {-webkit-filter: drop-shadow(1.8px 1.2px 1px orange);  transform: rotate(-2deg)  }
+  40% {-webkit-filter: drop-shadow(2px 1px 1px orange);  transform: rotate(1deg)  }
+  50% {-webkit-filter: drop-shadow(2.2px 1.2px 1px orange);  transform: rotate(2deg) }
+  60% {-webkit-filter: drop-shadow(2px 1px 1.2px orange);  transform: rotate(4deg) }
+  70% {-webkit-filter: drop-shadow(8.8px 8.2px 4px grey);  transform: rotate(1deg) }
+  80% {-webkit-filter: drop-shadow(1.2px 1px 2.2px orange);  transform: rotate(-1deg) }
+  90% {-webkit-filter: drop-shadow(1.1px 4px 1px orange);   }
+  100% {-webkit-filter: drop-shadow(1.8px 1.2px 2px orange);   }
+
+
+
+}
+
+#logo:hover {
+
+  transform: rotate(5deg);
+
+
+
+}
+
+#logo:active {
+  transform: rotate(8deg);
+
+
+
+
+}
+
+#btnsdiv {
+
+
+ font-family:arial;
+  font-size:20px;
+margin:auto;
+align-items: center;
+justify-content:center;
+display:flex;
+
+
+}
+
+
+.btn {
+
+  font-weight:bold;
+  text-decoration:none;
+  color:#2F4F4F;
+
+
+}
+
+.btn:hover {
+
+
+  color:#6495ED;
+  border: 0px solid;
+  border-radius:5px;
+  font-size:23px;
+  text-shadow: 1px 1px 11px  lightblue;
+-webkit-text-stroke: 0.5px lightblue;
+
+}
+
+.btn:active {
+
+  text-decoration:none;
+  color:orange;
+  font-size:26px;
+
+
+}
+
+#floatinRef {
+
+  float:right;
+  shadow: 5px 10px;
+-webkit-filter: drop-shadow(5px 5px 5px lightblue);
+  filter: drop-shadow(5px 5px 5px lightblue);
+
+
+
+
+}
+
+
+.urls {
+
+
+  font-size:20px;
+  font-family:arial;
+  color:orange;
+
+
+}
+
+#infDiv {
+
+ font-family:arial;
+  color:black;
+  width:40%;
+  font-style:italic;
+
+margin:auto;
+  display:flex;
+align-items: center;
+justify-content:center;
+
+
+}
+
+
+#socialsDiv {
+
+  font-family:arial;
+  color:grey;
+  font-style:italic;
+margin:auto;
+align-items: center;
+justify-content:center;
+display:flex;
+
+}
+
+.socialsA {
+
+    text-decoration:none;
+  color:orange;
+
+
+
+}
+
+
+.socialsA:hover {
+
+    text-decoration:none;
+  color:blue;
+  border: 0px solid;
+  border-radius:5px;
+    transform: scale(1.2);
+
+
+
+
+}
+
+
+.socialsA:active {
+
+    text-decoration:none;
+  color:blue;
+  border: 0px solid;
+  border-radius:5px;
+  transform: rotate(-15deg);
+
+
+
+
+}
+
+
+#hrofSD {
+
+
+  font-size:25px;
+  border:3px solid orange;
+  border-radius:3px;
+  background-color:red;
+  width:70%;
+
+}
+
+
+.sociIco {
+
+  width:60px;
+  height:60px;
+
+
+}
+
+#reloder {
+
+  width:50px;height:50px;
+
+
+}
+
+
+#reloder:hover {
+
+ width:55px;
+  height:55px;
+  transform: rotate(20deg);
+
+
+
+
+
+}
+
